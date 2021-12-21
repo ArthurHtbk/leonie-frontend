@@ -24,7 +24,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
         <img src={logo} alt="Logo" className="logo" />
       </Link>
       <ul className="navbar-area">
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/">
             {language === "english"
               ? "Home"
@@ -33,7 +38,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
               : "Startseite"}
           </Link>
         </li>
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/bio">
             {language === "english"
               ? "Biography"
@@ -42,7 +52,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
               : "Biografie"}
           </Link>
         </li>
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/dates">
             {language === "english"
               ? "Dates"
@@ -51,7 +66,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
               : "Termine"}
           </Link>
         </li>
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/music">
             {language === "english"
               ? "Music"
@@ -60,7 +80,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
               : "Musik"}
           </Link>
         </li>
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/gallery">
             {language === "english"
               ? "Gallery"
@@ -69,7 +94,12 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
               : "Fotos"}
           </Link>
         </li>
-        <li className="navbar-item">
+        <li
+          className="navbar-item"
+          onClick={() => {
+            setShowLinks(!showLinks);
+          }}
+        >
           <Link className="navbar-link" to="/contact">
             {language === "english"
               ? "Contact"
@@ -84,6 +114,7 @@ const Header = ({ userToken, setUser, language, setLanguage }) => {
             onClick={() => {
               setUser(null);
               history.push("/");
+              setShowLinks(!showLinks);
             }}
           >
             {language === "english"
