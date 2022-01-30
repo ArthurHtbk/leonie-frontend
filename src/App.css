@@ -321,7 +321,7 @@ strong {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #d81b45;
+  background-color: #ff14bd;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 150ms ease-in;
