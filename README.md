@@ -15,7 +15,7 @@ This webiste is available in three languages, **English** (default), **French** 
 - Contact
 - A log-in page that grants admin credentials
 
-Admin user can update content on biography, dates, music, and gallery pages. The website being still in production, it is not quite finished yet.
+Admin user can update content on biography, dates, music, and gallery pages. The website is still in production, and is not quite finished yet.
 
 ## Packages & dependencies
 
