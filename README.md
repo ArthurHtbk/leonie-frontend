@@ -1,6 +1,6 @@
 # Leonie Hey
 
-![My portfolio](https://github.com/ArthurHtbk/my-portfolio/blob/main/leonie_preview.png)
+![My portfolio](https://github.com/ArthurHtbk/leonie-frontend/blob/main/leonie_preview.png)
 
 ---
 
