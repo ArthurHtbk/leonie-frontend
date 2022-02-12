@@ -7,11 +7,12 @@
 Welcome to the front-end repository of Leonie Hey's website! Leonie is a professional bass and double bass player based in Bordeaux, France.
 
 This webiste is available in three languages, **English** (default), **French** and **German**, and contains seven pages:
+
 - Home
 - Biography
 - Dates (with a unique date/slug page for each item)
 - Music
-- Gallery 
+- Gallery
 - Contact
 - A log-in page that grants admin credentials
 
@@ -26,5 +27,5 @@ Admin user can update content on biography, dates, music, and gallery pages. The
 
 ## Check this out!
 
-- **[Leonie Hey](https://confident-brahmagupta-9636d2.netlify.app/)**
+- **[Leonie Hey](https://leonie-hey-temp.netlify.app)**
 - **The corresponding [back-end repository](https://github.com/ArthurHtbk/portfolio-backend)**
