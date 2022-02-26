@@ -28,6 +28,7 @@ const DeleteUrl = ({ showDeleteUrl, setShowDeleteUrl, id }) => {
   const handleSubmit = async (event) => {
     try {
       event.preventDefault();
+      console.log(id);
       const response = await axios.post(
         "https://leonie-backend.herokuapp.com/backoffice/url/delete",
         { _id: id }

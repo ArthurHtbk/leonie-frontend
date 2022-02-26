@@ -6,6 +6,7 @@ import AddUrl from "../modals/AddUrl";
 import DeleteUrl from "../modals/DeleteUrl";
 
 const Urls = ({ userToken }) => {
+  const [id, setId] = useState("");
   const [data, setData] = useState();
   const [isLoading, setIsLoading] = useState(true);
   const [showAddUrl, setShowAddUrl] = useState(false);
@@ -50,6 +51,7 @@ const Urls = ({ userToken }) => {
                   icon="times"
                   className="closeIcon"
                   onClick={() => {
+                    setId(url._id);
                     setShowDeleteUrl(!showDeleteUrl);
                   }}
                 />
@@ -75,6 +77,7 @@ const Urls = ({ userToken }) => {
       <DeleteUrl
         showDeleteUrl={showDeleteUrl}
         setShowDeleteUrl={setShowDeleteUrl}
+        id={id}
       />
     </div>
   );
